@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="323" Margin="325,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="112">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GrayTextColorKey}}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Ellipse x:Name="Red" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="100" Margin="331,31,0,0">
+            <Ellipse.Fill>
+                <SolidColorBrush Color="#FFA02222"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse x:Name="Yellow" Fill="#FFC1AD2A" HorizontalAlignment="Left" Height="100" Margin="331,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="Green" Fill="#FF095F2F" HorizontalAlignment="Left" Height="100" Margin="331,241,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="140,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.947,-0.077"/>
+
+    </Grid>
+</Window>
